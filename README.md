@@ -16,3 +16,5 @@ Despite the name, the actual “hangman” part isn’t necessary. The main goal
 
 
 Likely the most complex project on this list (well, depending on just how intense you went with the adventure text game), the Hangman project compiles the prior concepts and takes them a step further. Here, outcomes are not only determined based on user-inputted data, that data needs to be parsed through, compared, and then either accepted or rejected. If you want to take this project a step further, set up a hangman image that changes!
+
+* I also made it replayble and for the user to be able to guess the whole word.
