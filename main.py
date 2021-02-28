@@ -83,14 +83,16 @@ while play_again == 'y':
             user_letter = input('Enter a letter, take a full guess at the word, or "0" to quit:\n')
             clear()
             continue
-        if guess_count == 0:
+
+        if correct_guesses.find('-') == -1:
+            print('You Win!')
+            break
+        elif guess_count == 0:
             print(correct_guesses.upper())
             print('Incorrect guesses: {}'.format(incorrect_guesses))
             print('You lose!')
             break
-        elif correct_guesses.find('-') == -1:
-            print('You Win!')
-            break
+
         clear()
         print('Guesses Left: {}'.format(guess_count))
         print(correct_guesses.upper())
